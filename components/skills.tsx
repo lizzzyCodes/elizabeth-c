@@ -1,7 +1,3 @@
-// to make the skills object... we 
-// can create a list and map over the list
-// to add add a border around the skills
-
 import { images } from '../lib/data'
 export default function Skills() {
   return  (

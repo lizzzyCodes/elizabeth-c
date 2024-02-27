@@ -3,6 +3,8 @@ import Mail from '@/app/src/img/Icons/mail.png';
 import Link from 'next/link';
 import Navbar from '@/components/navbar';
 import Headshot from '@/app/src/img/Icons/ProfilePic.png';
+import Image from 'next/image';
+
 export default function About() {
   return  (
     
@@ -13,16 +15,23 @@ export default function About() {
         <img about='profile pic' className='h-20 w-20 border-2 border-[#5760CC] rounded-full'src={Headshot.src} alt='headshot'/>
       </header>
     </div>
-    <div about='about me text section'>
-      <p className="pl-48 pr-48 pb-20 text-[#E1D6FC] text-center font-['montserrat'] leading-loose flex justify-center text-sm md:text-lg mb-2">
-      <img className=" animate-bounce h-20 w-20 p-4" src={Star.src} alt='star image'/>
-        I’m a software engineer and a advocate for diversity in tech.
-        I have over a year of full-time software engineering experience. my background is in data science and I love front end development. I was born and raised in Des Moines, Washington. (40 min from Seattle) and I am based in Chicago.
-        Outside work, I spend most of my time mentoring students in various aspects of their student journey, including mock interviews for selective programs, college applications and reinforcing computer science topics.
-        Coming from a background that had capacity constrained majors (academic programs that have limited enrollment capacity) my university journey began with the disheartening advice from advisors who discouraged me from even applying to computer science.
-        My personal journey has inspired a deep commitment to helping and uplifting the community that faces similar struggles. By sharing my story and offering support, I aim to empower others to navigate the challenges of being a first-generation college student (like myself) fostering a sense of belonging and resilience within the community.
-            {/**animate-bounce */}
-      <img className=" animate-bounce h-20 w-20 p-4" src={Star.src} alt='star image'/>
+    <div about='about me text section' className='pl-48 pr-48 text-[#E1D6FC] text-center font-["montserrat"] mb-2'>
+        <div className='mb-4'>
+          <p className='mb-2 text-sm md:text-lg display: inline-block pb-8'>I’m a software engineer and a advocate for diversity in tech.</p>
+        </div>
+        <div className='mb-4'>
+          <p className='mb-2 text-sm md:text-lg display: inline-block pb-8'>I have over a year of full-time software engineering experience. my background is in data science and I love front end development. I was born and raised in Des Moines, Washington. (40 min from Seattle) and I am based in Chicago.</p>
+        </div>
+        <div className='mb-4'>
+          <p className='mb-2 text-sm md:text-lg display: inline-block pb-8'>Outside work, I spend most of my time mentoring students in various aspects of their student journey, including mock interviews for selective programs, college applications and reinforcing computer science topics.</p>
+        </div>
+        <div className='mb-4'>
+          <p className='mb-2 text-sm md:text-lg display: inline-block pb-8'>Coming from a background that had capacity constrained majors (academic programs that have limited enrollment capacity) my university journey began with the disheartening advice from advisors who discouraged me from even applying to computer science.</p>
+        </div>
+      <p className="flex text-sm md:text-lg mb-2 pb-10">
+        <Image className="animate-bounce object-contain" src={Star.src} width={40} height={40} alt='star image'/>
+          My personal journey has inspired a deep commitment to helping and uplifting the community that faces similar struggles. By sharing my story and offering support, I aim to empower others to navigate the challenges of being a first-generation college student (like myself) fostering a sense of belonging and resilience within the community.
+        <Image className="animate-bounce h-20 w-20 p-4" src={Star.src}  width={40} height={40} alt='star image'/>
       </p>
     </div>
     <div about='button container' className="flex justify-center relative">
