@@ -86,7 +86,6 @@ export const images = [
   },
 ] as const;
 
-
 export const ExperienceData = [
   {
     id: '1',
@@ -130,4 +129,13 @@ export const InternData = [
 ] as const;
 
 
-
+export const portfolioStack = [
+  {
+    id: '1',
+    skill: 'typescript'
+  },
+  {
+    id: '2',
+    skill: 'react'
+  },
+] as const;
