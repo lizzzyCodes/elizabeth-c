@@ -549,6 +549,15 @@ video {
   left: 0px;
   right: 0px;
 }
+.-left-3{
+  left: -0.75rem;
+}
+.-right-3{
+  right: -0.75rem;
+}
+.-top-3{
+  top: -0.75rem;
+}
 .bottom-0{
   bottom: 0px;
 }
@@ -599,6 +608,9 @@ video {
 }
 .h-screen{
   height: 100vh;
+}
+.h-32{
+  height: 8rem;
 }
 .w-10{
   width: 2.5rem;
@@ -746,8 +758,30 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
+.bg-yellow-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 224 71 / var(--tw-bg-opacity));
+}
 .bg-opacity-25{
   --tw-bg-opacity: 0.25;
+}
+.bg-cover{
+  background-size: cover;
+}
+.bg-left-top{
+  background-position: left top;
+}
+.bg-center{
+  background-position: center;
+}
+.bg-repeat{
+  background-repeat: repeat;
+}
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
+.bg-repeat-x{
+  background-repeat: repeat-x;
 }
 .object-contain{
   -o-object-fit: contain;
