@@ -1,5 +1,6 @@
-// subheading component for resume experience section
-//SOFTWARE ENGINEER, CHECKOUT
+
+// Subheading Text Component
+
 export default function Subheading({ text } : { text:string }) {
-return ( <p className="pb-6 text-[20px] uppercase ">{ text }</p> );
+return ( <p className="pb-6 text-white text-[20px] uppercase font-press-start ">{ text }</p> );
 }
