@@ -23,7 +23,7 @@ return (
             <Image className='' src={Clouds} width={500} height={500} alt='clouds png'/>
             </div>
           
-         <TypeAnimation
+       {/*  <TypeAnimation
             sequence={[
                 'hi, im elizabeth && welcome to my portfolio'
             ]}
@@ -31,7 +31,7 @@ return (
             speed={1}
             style={{ fontSize: '50px', display: 'relative'}}
             repeat={0}
-        />
+        /> */}
        
     </div>
     <div className=" flex space-x-10 font-press-start text-white text-center h-18 text-xl px-4">
