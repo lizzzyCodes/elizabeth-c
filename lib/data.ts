@@ -15,7 +15,11 @@ import Python from '../app/src/img/Icons/PYTHON.svg.png'
 import TailWind from '../app/src/img/Icons/TAiLWIND.png';
 import PayPal from '../app/src/img/PayPalLogo.png';
 import UW from '../app/src/img/Icons/UW.png';
+import Temperature from '../app/src/img/Icons/Temperature.png';
+import Precipitation from '../app/src/img/Icons/Water.png';
+import Shapefile from '../app/src/img/Icons/Shapefile.png';
 
+// Logos for University and Work Experience in Resume Page
 export const logos = [
   {
     photo: PayPal,
@@ -27,6 +31,7 @@ export const logos = [
   },
 ] as const;
 
+// Logos for tech stack in Resume Page
 export const images = [
   {
     photo: JavaScript,
@@ -86,6 +91,7 @@ export const images = [
   },
 ] as const;
 
+// Bullet Points for Resume Page for Work Experience
 export const ExperienceData = [
   {
     id: '1',
@@ -109,6 +115,7 @@ export const ExperienceData = [
   },
 ] as const;
 
+// Bullet Points for Resume Page for Intern Experience
 export const InternData = [
   {
     id: '1',
@@ -128,7 +135,7 @@ export const InternData = [
   },
 ] as const;
 
-
+// Tech Stack Data for Project Cards in All Projects Page
 export const portfolioStack = [
   {
     id: '1',
@@ -137,5 +144,30 @@ export const portfolioStack = [
   {
     id: '2',
     skill: 'react'
+  },
+] as const;
+
+// Icons and Links Data for Alabama Project
+export const alabamaVegetationData = [
+  {
+    id: '1',
+    photo: Shapefile,
+    text: 'Shapefile',
+    att: 'icons created by Freepik - Flaticon',
+    link: 'https://hub.arcgis.com/datasets/ALGeoHub::alabama-counties/about',
+  },
+  {
+    id: '2',
+    photo: Temperature,
+    text: 'Temperature Data',
+   // att: 'icons created by Freepik - Flaticon',
+    link: 'https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/AL-117/tavg/1/1/1895-2022'
+  },
+  {
+    id: '3',
+    photo: Precipitation,
+    text: 'Precipitation Data',
+   // att: 'icons created by Freepik - Flaticon',
+   // link: 'https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/AL-117/tavg/1/1/1895-2022'
   },
 ] as const;

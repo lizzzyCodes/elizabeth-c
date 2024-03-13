@@ -1,5 +1,5 @@
 'use client'
-import Button from './buttons';
+import Button from './Buttons';
 import Clouds from '@/app/src/img/clouds.png';
 import SmallCloud from '@/app/src/img/smallcloud.png';
 import Image from 'next/image';

@@ -1,3 +1,4 @@
+// This Page contains all the project cards
 import Heading from '@/components/heading'
 import ProjectCard from '@/components/projectcard'
 import SampleImage from '@/app/src/img/Icons/xaci.jpeg'

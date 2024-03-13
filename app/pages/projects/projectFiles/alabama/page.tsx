@@ -2,7 +2,7 @@
 import Navbar from "@/components/navbar";
 import Heading from "@/components/heading";
 import About from "@/components/projectabout";
-
+import DataCard from "@/components/datacards";
 export default function Project() {
     return  (
         <section>
@@ -14,11 +14,14 @@ export default function Project() {
         Research questions include:
         Do temperature and precipation change over the years in each country? Is the change significant?
         Do geographical locations affect plant diversity?'/>
-        <About subheading="Data Mining" text='here are the links'/>
+        <About subheading="Data Mining" text='Data sets used were shapefiles, temperature and precipitation csv file. Shape files 
+        store the geometry of shapes like points, lines and polygons. They are commonly used in
+        spatial analysis and mapping.
+        '/>
+        <DataCard />
         <About subheading="Data Cleaning" text='here are the links'/>
         <About subheading="Data Visualizations" text='here are the links'/>
         </section>
-
 
     )
   }
