@@ -1,4 +1,6 @@
+// skills icons
 import { images } from '../lib/data'
+
 export default function Skills() {
   return  (
   <section about="skills container" className="p-8 m-28 p-15">

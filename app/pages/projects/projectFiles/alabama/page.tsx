@@ -2,7 +2,9 @@
 import Navbar from "@/components/navbar";
 import Heading from "@/components/heading";
 import About from "@/components/projectabout";
-import DataCard from "@/components/datacards";
+import DataCard from "@/components/Datacards";
+import { alabamaVegetationData } from "@/lib/data";
+
 export default function Project() {
     return  (
         <section>

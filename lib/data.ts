@@ -1,18 +1,18 @@
 
-import BrowserStack  from '../app/src/img/Icons/BROWSERSTACK.png';
-import Webdriver from '../app/src/img/Icons/WEBDRIVER.png';
-import Mocha from '../app/src/img/Icons/MOCHA.png';
-import Jenkins from '../app/src/img/Icons/JENKINS.png';
-import Figma from '../app/src/img/Icons/FIGMA.png';
-import Git from '../app/src/img/Icons/git.png';
-import HTMLCSS from '../app/src/img/Icons/HTMLCSS.png';
+import BrowserStack  from '../app/src/img/Icons/browserstack.png';
+import Webdriver from '../app/src/img/Icons/Webdriver.png';
+import Mocha from '../app/src/img/Icons/Mocha.svg.png';
+import Jenkins from '../app/src/img/Icons/Jenkins.svg.png';
+import Figma from '../app/src/img/Icons/Figma.png';
+import Git from '../app/src/img/Icons/Git.svg.png';
+import HTMLCSS from '../app/src/img/Icons/HTMLCSS.svg.png';
 import Java from '../app/src/img/Icons/JAVA.png';
-import Jest from '../app/src/img/Icons/JEST.png';
-import JavaScript from '../app/src/img/Icons/JS.png';
+import Jest from '../app/src/img/Icons/Jest.png';
+import JavaScript from '../app/src/img/Icons/JAVASCRIPT.svg';
 import React from '../app/src/img/Icons/REAC.png';
 import NodeJS from '../app/src/img/Icons/NODE.png';
 import Python from '../app/src/img/Icons/PYTHON.svg.png'
-import TailWind from '../app/src/img/Icons/TAiLWIND.png';
+import TailWind from '../app/src/img/Icons/Tailwind.png';
 import PayPal from '../app/src/img/PayPalLogo.png';
 import UW from '../app/src/img/Icons/UW.png';
 import Temperature from '../app/src/img/Icons/Temperature.png';
@@ -160,14 +160,14 @@ export const alabamaVegetationData = [
     id: '2',
     photo: Temperature,
     text: 'Temperature Data',
-   // att: 'icons created by Freepik - Flaticon',
+    att: 'icons created by Freepik - Flaticon',
     link: 'https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/AL-117/tavg/1/1/1895-2022'
   },
   {
     id: '3',
     photo: Precipitation,
     text: 'Precipitation Data',
-   // att: 'icons created by Freepik - Flaticon',
-   // link: 'https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/AL-117/tavg/1/1/1895-2022'
+    att: 'icons created by Freepik - Flaticon',
+    link: 'https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/AL-117/tavg/1/1/1895-2022'
   },
 ] as const;
