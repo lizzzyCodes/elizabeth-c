@@ -5,6 +5,7 @@ import About from "@/components/projectabout";
 import DataCard from "@/components/Datacards";
 import { alabamaVegetationData } from "@/lib/data";
 
+
 export default function Project() {
     return  (
         <section>
@@ -16,11 +17,11 @@ export default function Project() {
         Research questions include:
         Do temperature and precipation change over the years in each country? Is the change significant?
         Do geographical locations affect plant diversity?'/>
-        <About subheading="Data Mining" text='Data sets used were shapefiles, temperature and precipitation csv file. Shape files 
+        <About subheading="Data Mining" text='Data sets used were shapefiles, temperature and precipitation csv files. Shape files 
         store the geometry of shapes like points, lines and polygons. They are commonly used in
         spatial analysis and mapping.
         '/>
-        <DataCard />
+        <DataCard data={ alabamaVegetationData }/>
         <About subheading="Data Cleaning" text='here are the links'/>
         <About subheading="Data Visualizations" text='here are the links'/>
         </section>
