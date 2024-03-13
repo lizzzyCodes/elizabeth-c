@@ -9,7 +9,7 @@ export default function About() {
   return  (
     
   <section about="about me container">
-    <Navbar/>
+    <Navbar link='/' />
     <div className='flex justify-center relative'>
       <header className="flex items center pt-20 text-[#ED6DD3] text-[50px] font-press-start uppercase p-10 ">nice to meet you!
         <img about='profile pic' className='h-20 w-20 border-2 border-[#5760CC] rounded-full'src={Headshot.src} alt='headshot'/>

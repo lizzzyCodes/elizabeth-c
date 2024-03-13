@@ -16,20 +16,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/pages/projects/page.js"
     ],
-    "/pages/resume/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/pages/resume/page.js"
-    ],
     "/pages/projects/projectFiles/alabama/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/pages/projects/projectFiles/alabama/page.js"
     ],
-    "/pages/about/page": [
+    "/pages/resume/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/pages/about/page.js"
+      "static/chunks/app/pages/resume/page.js"
     ]
   }
 }

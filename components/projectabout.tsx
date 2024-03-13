@@ -7,7 +7,7 @@ export default function About() {
 
       <div className="p-10">
         <Subheading text="about this project"/>
-        <p className="font-['montserrat'] text-[20px]  text-white">
+        <p className="font-['montserrat'] text-[20px] text-white">
         Lorem ipsum dolor sit amet. Sed saepe tempora eum sunt voluptas hic quidem modi aut consequatur sequi et numquam iusto eum modi voluptas sed atque blanditiis. 
         Quo quibusdam nemo est obcaecati
         </p>

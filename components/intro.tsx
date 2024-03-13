@@ -22,7 +22,7 @@ return (
             <div about='middle cloud' className='absolute'>
             <Image className='' src={Clouds} width={500} height={500} alt='clouds png'/>
             </div>
-          {/*
+          
          <TypeAnimation
             sequence={[
                 'hi, im elizabeth && welcome to my portfolio'
@@ -32,7 +32,7 @@ return (
             style={{ fontSize: '50px', display: 'relative'}}
             repeat={0}
         />
-       */}
+       
     </div>
     <div className=" flex space-x-10 font-press-start text-white text-center h-18 text-xl px-4">
         <Button link='/pages/about' color='bg-[#71EC8B]' text='about'/>
