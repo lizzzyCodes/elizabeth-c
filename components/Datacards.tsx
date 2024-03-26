@@ -4,7 +4,7 @@ display icons and redirect to appropriate URL if clicked */
 export default function DataCard({ data }) {
   return (
     <section>
-        <div about='icons and links' className='flex flex-wrap -mb-4 p-10'>
+        <div about='icons and links' className='flex flex-wrap -mb-4 pb-10 pr-10 pl-10'>
             { data.map(( { photo, text, id } : { text:string, id:string }) => (
             <li className='pr-6' key={id}>
             <div className='p-4 pr-6'>
