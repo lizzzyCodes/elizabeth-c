@@ -8,7 +8,7 @@ import { TypeAnimation } from 'react-type-animation';
 export default function Intro() {
 return (
 <div about='overall container'>
-<section about="IntroBox" className="border-2 border-[#71EC8B] text-center rounded-[21px] h-screen flex items-center justify-center m-28 flex-wrap p-15"> 
+<section about="IntroBox" className="border-2 border-[#71EC8B] text-center rounded-[21px] flex items-center justify-center m-28 flex-wrap p-15"> 
     <div className="border-4 border-indigo-500/100 text-[#ED6DD3] font-press-start uppercase">
 
             <div about='small cloud' className='absolute -left-3 -top-3'>

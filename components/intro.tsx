@@ -9,8 +9,8 @@ import Heading from './heading';
 export default function Intro() {
 return (
 <div about='overall container' className='p-6'>
-<section about="IntroBox" className="border-2 border-[#71EC8B] rounded-[21px] h-screen w-fit table p-2 text-center"> 
-    <div about='heading' className=" text-[#ED6DD3] p-10 text-center font-press-start uppercase p-2 ml-2">
+<section about="IntroBox" className="border-2 border-[#71EC8B] rounded-[21px] w-fit table p-2 text-center"> 
+    <div about='heading' className=" text-[#ED6DD3] p-10 text-center font-press-start uppercase">
         <h1 className='text-2xl sm:text-8xl lg:text-7xl'>hi, im elizabeth && welcome to my portfolio </h1>
 
 {/*
@@ -38,8 +38,8 @@ return (
         /> */}
        
     </div>
-    <div className='p-2 ml-2' about='Buttons'>
-        <div className="lg:space-x-20 text-xl px-4 py-10">
+    <div className="p-2 ml-2 flex items-center justify-around" about='Buttons'>
+        <div className=" text-xl flex flex-wrap space-y-8 justify-around">
             <Button link='/pages/about' color='bg-[#71EC8B]' text='about'/>
             <Button link='/pages/projects' color='bg-[#886ADF]' text='projects'/>
             <Button link='/pages/resume' color='bg-[#ED6DD3]' text='experience'/>
