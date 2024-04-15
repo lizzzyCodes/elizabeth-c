@@ -9,12 +9,12 @@ import Heading from './heading';
 export default function Intro() {
 return (
 <div about='overall container' className='p-6'>
-<section about="IntroBox" className="border-2 border-[#71EC8B] rounded-[21px] w-fit table p-2 text-center"> 
+<section about="IntroBox" className="border-2 border-[#71EC8B] rounded-[21px] w-fit table text-center p-2"> 
     <div about='heading' className=" text-[#ED6DD3] p-10 text-center font-press-start uppercase">
         <h1 className='text-2xl sm:text-8xl lg:text-7xl'>hi, im elizabeth && welcome to my portfolio </h1>
 
 {/*
-        <Heading text='hi, im elizabeth && welcome to my portfolio'/>
+
             <div about='small cloud' className='absolute -left-3 -top-3'>
             <Image className='' src={SmallCloud} width={500} height={100} alt='clouds png'/>
             </div>
@@ -35,14 +35,20 @@ return (
 4            speed={1}
             style={{ fontSize: '50px', display: 'relative'}}
             repeat={0}
+            // flex flex-wrap justify-around 
         /> */}
+        
        
     </div>
-    <div className="p-2 ml-2 flex items-center justify-around" about='Buttons'>
-        <div className=" text-xl flex flex-wrap space-y-8 justify-around">
+    <div className="p-2" about='Buttons'>
+        <div className="flex-col text-xl space-y-8">
+            <div className='space-x-4'>
             <Button link='/pages/about' color='bg-[#71EC8B]' text='about'/>
             <Button link='/pages/projects' color='bg-[#886ADF]' text='projects'/>
+            </div>
+            <div>
             <Button link='/pages/resume' color='bg-[#ED6DD3]' text='experience'/>
+            </div>
         </div>
     </div>
 </section>
