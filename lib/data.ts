@@ -95,24 +95,20 @@ export const images = [
 export const ExperienceData = [
   {
     id: '1',
-    item: 'Implemented eligibility logic in the router layer using JavaScript, reducing checkout latency by ~3 seconds for ~45% of users, leading to improved conversion rates'
+    item: 'Implemented eligibility and redirection logic in the router layer using JavaScript, reducing checkout latency by ~3 seconds for ~45% of users, leading to improved conversion rates'
   },
   {
     id: '2',
-    item: 'Spearheaded collaboration with external BrowserStack team to develop the first Apple Pay functional test using BrowserStack, in order to ensure seamless functionality on mobile platforms'
+    item: 'Collaborate with external BrowserStack team to develop the first Apple Pay functional tests, in order to kickstart apple pay testing ensuring seamless functionality on mobile platforms.'
   },
   {
     id: '3',
-    item: 'Orchestrated rigorous accessibility testing in dedicated environments, using WAVE, LightHouse and Screen readers to enhance visibility and improve conversion rates across checkout'
+    item: 'Designed, developed and implemented  a test suite of over 12 functional tests for a new checkout route using BrowserStack and webdriverIO. Ensuring functionality across control and experiment flows. Leading to a reduction in manual testing for developers. '
   },
   {
-    id: '4',
-    item: 'Integrated unit tests into every pull requests using Jest or Mocha in order to improve test coverage across checkout'
-  },
-  {
-    id: '5',
-    item: 'Captured payload sizes and corresponding data points using internal tracking and analytics systems in order to reduce latency and identify bugs in ramped experiments'
-  },
+    id:'4',
+    item: 'Developed a test suite with over 10 unit tests that adheres to industry best practices using Mocha and Chai achieving a robust 90% coverage.'
+  }, 
 ] as const;
 
 // Bullet Points for Resume Page for Intern Experience
@@ -150,6 +146,23 @@ export const alabamaStack = [
     skill: 'csv'
   },
 ] as const;
+
+// Tech Stack Data for GrooveSnap
+export const grooveSnapStack = [
+  {
+    id: '1',
+    skill: 'typescript'
+  },
+  {
+    id: '2',
+    skill: 'react'
+  },
+  {
+    id: '3',
+    skill: 'tailwind CSS'
+  },
+] as const;
+
 
 // Tech Stack Data for Project Cards for MockHire
 export const mockHireStack = [
