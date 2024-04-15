@@ -18,6 +18,9 @@ import UW from '../app/src/img/Icons/UW.png';
 import Temperature from '../app/src/img/Icons/Temperature.png';
 import Precipitation from '../app/src/img/Icons/Water.png';
 import Shapefile from '../app/src/img/Icons/Shapefile.png';
+import Typeography from '../app/src/img/Icons/typography.png';
+import DesignElements from '../app/src/img/Icons/designElements.png';
+import ColorPalette from '../app/src/img/Icons/colorPalette.png';
 
 // Logos for University and Work Experience in Resume Page
 export const logos = [
@@ -205,6 +208,40 @@ export const alabamaVegetationData = [
     photo: Precipitation,
     text: 'Precipitation Data',
     att: 'icons created by Freepik - Flaticon',
+    link: 'https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/AL-117/tavg/1/1/1895-2022'
+  },
+] as const;
+
+export const mockHireDataLinks = [
+  {
+    id: '1',
+    photo: Typeography,
+    text: 'Typeography', // typography fle
+    att: 'icons created by Freepik - Flaticon',
+    // <a href="https://www.flaticon.com/free-icons/font" title="font icons">Font icons created by Freepik - Flaticon</a>
+    link: 'https://hub.arcgis.com/datasets/ALGeoHub::alabama-counties/about',
+  },
+  {
+    id: '2',
+    photo: DesignElements,
+    text: 'Design Elements', // like the buttons active etc file
+    att: 'icons created by Freepik - Flaticon',
+    // <a href="https://www.flaticon.com/free-icons/art-and-design" title="art and design icons">Art and design icons created by Freepik - Flaticon</a>
+    link: 'https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/AL-117/tavg/1/1/1895-2022'
+  },
+  {
+    id: '3',
+    photo: ColorPalette,
+    text: 'Color Palette', // color palette figma file
+    att: 'icons created by Freepik - Flaticon',
+    // <a href="https://www.flaticon.com/free-icons/shapes" title="shapes icons">Shapes icons created by Freepik - Flaticon</a>
+    link: 'https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/AL-117/tavg/1/1/1895-2022'
+  },
+  {
+    id: '3',
+    photo: Precipitation,
+    text: 'Pages', // pges file like the dashboard etc... 
+    att: 'icons created by Freepik - Flaticon', // figma logo?
     link: 'https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/AL-117/tavg/1/1/1895-2022'
   },
 ] as const;
