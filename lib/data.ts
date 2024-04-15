@@ -135,14 +135,38 @@ export const InternData = [
   },
 ] as const;
 
-// Tech Stack Data for Project Cards in All Projects Page
-export const portfolioStack = [
+// Tech Stack Data for Project Cards for Alabama Project
+export const alabamaStack = [
   {
     id: '1',
-    skill: 'typescript'
+    skill: 'python'
   },
   {
     id: '2',
+    skill: 'shapefile'
+  },
+  {
+    id: '3',
+    skill: 'csv'
+  },
+] as const;
+
+// Tech Stack Data for Project Cards for MockHire
+export const mockHireStack = [
+  {
+    id: '1',
+    skill: 'figma'
+  },
+  {
+    id: '2',
+    skill: 'material ui'
+  },
+  {
+    id: '3',
+    skill: 'typescript'
+  },
+  {
+    id: '4',
     skill: 'react'
   },
 ] as const;

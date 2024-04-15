@@ -545,9 +545,6 @@ video {
 .relative{
   position: relative;
 }
-.inset-0{
-  inset: 0px;
-}
 .inset-x-0{
   left: 0px;
   right: 0px;
@@ -575,9 +572,6 @@ video {
 }
 .mb-2{
   margin-bottom: 0.5rem;
-}
-.ml-2{
-  margin-left: 0.5rem;
 }
 .mr-2{
   margin-right: 0.5rem;
@@ -612,9 +606,6 @@ video {
 .h-28{
   height: 7rem;
 }
-.h-12{
-  height: 3rem;
-}
 .w-10{
   width: 2.5rem;
 }
@@ -628,9 +619,6 @@ video {
 .w-full{
   width: 100%;
 }
-.w-12{
-  width: 3rem;
-}
 .max-w-sm{
   max-width: 24rem;
 }
@@ -638,6 +626,9 @@ video {
   flex: 1 1 0%;
 }
 .flex-grow{
+  flex-grow: 1;
+}
+.grow{
   flex-grow: 1;
 }
 .flex-row{
@@ -674,6 +665,11 @@ video {
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
+.space-x-4 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
 .space-y-4 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
@@ -683,26 +679,6 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
-}
-.space-x-4 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1rem * var(--tw-space-x-reverse));
-  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-}
-.space-y-10 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-y-reverse: 0;
-  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
-}
-.space-y-20 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-y-reverse: 0;
-  margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(5rem * var(--tw-space-y-reverse));
-}
-.space-y-2 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 .overflow-hidden{
   overflow: hidden;
