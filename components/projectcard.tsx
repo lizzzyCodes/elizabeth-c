@@ -8,7 +8,7 @@ return (
           <img className='w-full rounded-[20px]' src={img} alt='card image'/>
           <p className='rounded-bl-[12px] rounded-br-[12px] px-2.5 pt-2 pb-2 bg-[#EEEEEE] bg-opacity-25 absolute inset-x-0 bottom-0 text-[20px] font-bold font-press-start uppercase'>{title}</p>
         </div>
-        <div about='tech stack labels' className='pt-4 pb-2 font-["montserrat"]'>
+        <div about='tech stack labels' className='pt-4 pb-2 font-["montserrat"] '>
           {data.map(( item ) => (
             <p key={item.id} className="inline-block bg-[#5760CC] rounded-full px-3 mr-2 mb-2">{item.skill}</p>
           ))}

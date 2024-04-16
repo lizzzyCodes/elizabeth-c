@@ -6,13 +6,14 @@ import Jenkins from '../app/src/img/Icons/Jenkins.svg.png';
 import Figma from '../app/src/img/Icons/Figma.png';
 import Git from '../app/src/img/Icons/Git.svg.png';
 import HTMLCSS from '../app/src/img/Icons/HTMLCSS.svg.png';
-import Java from '../app/src/img/Icons/JAVA.png';
+import Java from '../app/src/img/Icons/java.svg';
 import Jest from '../app/src/img/Icons/Jest.png';
 import JavaScript from '../app/src/img/Icons/JAVASCRIPT.svg';
 import React from '../app/src/img/Icons/REAC.png';
 import NodeJS from '../app/src/img/Icons/NODE.png';
 import Python from '../app/src/img/Icons/PYTHON.svg.png'
-import TailWind from '../app/src/img/Icons/Tailwind.png';
+// import TailWind from '../app/src/img/Icons/Tailwind.png';
+import SQL from '../app/src/img/Icons/SQL.svg';
 import PayPal from '../app/src/img/PayPalLogo.png';
 import UW from '../app/src/img/Icons/UW.png';
 import Temperature from '../app/src/img/Icons/Temperature.png';
@@ -21,6 +22,10 @@ import Shapefile from '../app/src/img/Icons/Shapefile.png';
 import Typeography from '../app/src/img/Icons/typography.png';
 import DesignElements from '../app/src/img/Icons/designElements.png';
 import ColorPalette from '../app/src/img/Icons/colorPalette.png';
+import Terraform from '../app/src/img/Icons/terraform.svg';
+import MaterialUI from '../app/src/img/Icons/materialUI.svg';
+import MongoDB from '../app/src/img/Icons/mongodb.svg';
+
 
 // Logos for University and Work Experience in Resume Page
 export const logos = [
@@ -38,11 +43,13 @@ export const logos = [
 export const images = [
   {
     photo: JavaScript,
-    text: JavaScript
+    text: JavaScript,
+    label: JavaScript
   },
   {
     photo: Python,
-    text: Python
+    text: Python,
+    label: Python,
   },
   {
     photo: Java,
@@ -55,10 +62,6 @@ export const images = [
   {
     photo: React,
     text: React,
-  },
-  {
-    photo: TailWind,
-    text: TailWind,
   },
   {
     photo: NodeJS,
@@ -91,6 +94,22 @@ export const images = [
   {
     photo: Webdriver,
     text: Webdriver,
+  },
+  {
+    photo: Terraform,
+    text: Terraform,
+  },
+  {
+    photo: MaterialUI,
+    text: MaterialUI,
+  },
+  {
+    photo: MongoDB,
+    text: MongoDB,
+  },
+  {
+    photo: SQL,
+    text: SQL,
   },
 ] as const;
 

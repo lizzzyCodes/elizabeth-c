@@ -3,24 +3,20 @@ import { images } from '../lib/data'
 
 export default function Skills() {
   return  (
-  <section about="skills container" className="p-8 m-28 p-15">
-    <div about="" className="flex items-center">
+  <section about="skills container" className="flex-shrink-0 border-2 border-[#71EC8B] rounded-[21px] m-8 ">
+    <div about="" className="text-center">
       <div about="Skills Heading and Logos container">
-      <strong className="text-[#ED6DD3] text-[50px] font-press-start uppercase">my techstack</strong>
-      <div about="render icon skills component">
-      <div className="flex flex-wrap -mb-4">
-        {/** make a function for the mapping below */}
-      {images.map(({ photo, text }) => (
-
-          // TODO: if odd or even change the border color accordingly
-         // {/* odd:border-[#5760CC] even:border-[#ED6DD3] border-2 rounded-3xl */}
-         // 
-          <li className="p-4" key={photo.src}>
-              <img className="flex-1 h-24 border-2 border-[#5760CC] rounded-3xl p-4" src={photo.src} alt={text.src} />
-          </li>
-      ))}
-      </div>
-      </div>
+        <h1 className="text-4xl lg:text-5xl font-press-start uppercase text-[#ED6DD3] pt-6">my techstack</h1>
+        <div about="Render Skill Logos">
+          <div className="flex flex-wrap -mb-4">
+          {images.map(({ photo, text }) => (
+              <li className="p-4 space-y-4" key={photo.src}>
+                  <img className=" h-24 border-2 border-[#5760CC] rounded-3xl p-4" src={photo.src} alt={text.src} />
+                  <p className="bg-[#5760CC] rounded-full text-white font-['montserrat'] p-2">longestNameever2t6chart</p>
+              </li>
+          ))}
+          </div>
+        </div>
       </div>
     </div>
   </section>
