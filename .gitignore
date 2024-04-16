@@ -3,4 +3,5 @@
 node_modules
 .env
 next
+.next
 next/static/webpack/*.webpack.hot-update.json
