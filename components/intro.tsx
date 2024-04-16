@@ -5,6 +5,7 @@ import SmallCloud from '@/app/src/img/smallcloud.png';
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 import Heading from './heading';
+import Head from 'next/head';
 // relative allows us to place the png in the same line
 export default function Intro() {
 return (
@@ -12,6 +13,7 @@ return (
 <section about="IntroBox" className="border-2 border-[#71EC8B] rounded-[21px] w-fit table text-center p-2"> 
     <div about='heading' className=" text-[#ED6DD3] p-10 text-center font-press-start uppercase">
         <h1 className='text-2xl sm:text-8xl lg:text-7xl'>hi, im liz && welcome to my portfolio </h1>
+
 
 {/*
 

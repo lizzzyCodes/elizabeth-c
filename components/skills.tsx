@@ -3,7 +3,7 @@ import { images } from '../lib/data'
 
 export default function Skills() {
   return  (
-  <section about="skills container" className="flex-shrink-0 border-2 border-[#71EC8B] rounded-[21px] m-8 ">
+  <section about="skills container" className="flex-shrink-0 rounded-[21px] m-8 ">
     <div about="" className="text-center">
       <div about="Skills Heading and Logos container">
         <h1 className="text-4xl lg:text-5xl font-press-start uppercase text-[#ED6DD3] pt-6 pb-10">my techstack</h1>

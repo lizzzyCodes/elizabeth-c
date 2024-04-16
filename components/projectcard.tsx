@@ -1,3 +1,4 @@
+// Each card
 import Link from "next/link"
 
 export default function ProjectCard({ title, text, img, data, link } : { title:string, text:string, link:string }) {

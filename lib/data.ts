@@ -141,6 +141,14 @@ export const ExperienceData = [
     id:'4',
     item: 'Developed a test suite with over 10 unit tests that adheres to industry best practices using Mocha and Chai achieving a robust 90% coverage.'
   }, 
+  {
+    id: '5',
+    item: 'Excellent communicator, and able to thrive on an agile team, contributing to: daily standups, sprints, quarterly project planning, and code reviews.'
+  },
+  {
+    id: '6',
+    item: 'Built over 10 dashboards using splunk in order to triage and resolve production bugs during A/B experiment ramps to boost conversion rate and improve performance.'
+  }
 ] as const;
 
 // Bullet Points for Resume Page for Intern Experience
@@ -151,15 +159,15 @@ export const InternData = [
   },
   {
     id: '2',
-    item: 'Developed UI/UX prototypes to enhance button click rates using Figma and collaborated with UX/UI teams for feedback.',
+    item: 'Designed UX/UI prototypes to enhance button click rates based on research data using Figma.',
   },
   {
     id: '3',
-    item: 'Developed button designs using React and documented code changes on Confluence in order to use in upcoming A/B experiments',
+    item: 'Collaborate with the UX/UI team and product to understand design intent and ensure the best user experience is delivered through front-end functionalities.',
   },
   {
     id: '4',
-    item: 'Built dynamic pivot charts and cleaned data using Excel in order to assist analytics team and combat money laundering',
+    item: 'Developed button designs using React and documented code changes on Confluence in order to use in upcoming A/B experiments.',
   },
 ] as const;
 
