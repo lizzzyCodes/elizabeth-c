@@ -1,5 +1,5 @@
 
-import BrowserStack  from '../app/src/img/Icons/browserstack.png';
+import BrowserStack from '../app/src/img/Icons/browserstack.png';
 import Webdriver from '../app/src/img/Icons/Webdriver.png';
 import Mocha from '../app/src/img/Icons/Mocha.svg.png';
 import Jenkins from '../app/src/img/Icons/Jenkins.svg.png';
@@ -44,72 +44,82 @@ export const images = [
   {
     photo: JavaScript,
     text: JavaScript,
-    label: JavaScript
+    label: 'JavaScript'
   },
   {
     photo: Python,
     text: Python,
-    label: Python,
+    label: 'Python',
   },
   {
     photo: Java,
-    text: Java
+    text: Java,
+    label: 'Java'
   },
   {
     photo: HTMLCSS,
-    text: HTMLCSS
+    text: HTMLCSS,
+    label: 'HTML / CSS'
   },
   {
     photo: React,
     text: React,
+    label: 'React'
   },
   {
     photo: NodeJS,
     text: NodeJS,
+    label: 'NodeJS'
   },
   {
     photo: Jest,
     text: Jest,
+    label: 'Jest'
   },
   {
     photo: Mocha,
     text: Mocha,
+    label: 'Mocha'
   },
   {
     photo: BrowserStack,
     text: BrowserStack,
+    label: 'Browserstack'
   },
   {
     photo: Git,
     text: Git,
+    label: 'Git'
   },
   {
     photo: Jenkins,
     text: Jenkins,
+    label: 'Jenkins'
   },
   {
     photo: Figma,
     text: Figma,
+    label: 'Figma'
   },
   {
     photo: Webdriver,
     text: Webdriver,
+    label: 'WebdriverIO'
   },
   {
     photo: Terraform,
     text: Terraform,
+    label: 'Terraform'
   },
   {
     photo: MaterialUI,
     text: MaterialUI,
-  },
-  {
-    photo: MongoDB,
-    text: MongoDB,
+    label: 'MaterialUI'
   },
   {
     photo: SQL,
     text: SQL,
+    label: 'SQL'
   },
 ] as const;
 

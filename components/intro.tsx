@@ -11,7 +11,7 @@ return (
 <div about='overall container' className='p-6'>
 <section about="IntroBox" className="border-2 border-[#71EC8B] rounded-[21px] w-fit table text-center p-2"> 
     <div about='heading' className=" text-[#ED6DD3] p-10 text-center font-press-start uppercase">
-        <h1 className='text-2xl sm:text-8xl lg:text-7xl'>hi, im elizabeth && welcome to my portfolio </h1>
+        <h1 className='text-2xl sm:text-8xl lg:text-7xl'>hi, im liz && welcome to my portfolio </h1>
 
 {/*
 

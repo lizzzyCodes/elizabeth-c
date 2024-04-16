@@ -1,3 +1,4 @@
+// Page for Buttons
 import Link from "next/link"
 
 export default function Button({ text, link, color } : { link:string, text:string, color:string }) {
