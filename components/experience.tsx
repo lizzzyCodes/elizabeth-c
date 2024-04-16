@@ -1,22 +1,25 @@
 import Image from "next/image"
 
+// title is company, subheading is title, date, image data
 export default function Experience({ title, subheading, date, image, data}  : { title:string, subheading:string, date:string }) {
 return (
-<section about="ExperienceBox" className="box-border border-2 border-[#71EC8B] rounded-[21px] m-28 p-15 font-press-start text-white "> 
-    <h2 about="date top right corner" className="uppercase text-right pl-8 pr-8 pt-8">{date}</h2>
-        <div about="Experience Component" className="flex items-left pl-8 pr-8">
-            {/* TODO: this will be a prop the logo */}
-            <Image className="object-contain w-20 h-20" src={image}  width={500} height={500} alt='logo'/>
-            <div about="ExperienceHeading, Subheading and Text"className="pl-8 pr-8 pb-10">
-                <strong className="pb-2 text-[#ED6DD3] text-[50px] font-press-start uppercase">{title}</strong>
-                <p className="pb-6 uppercase ">{subheading}</p>
-                <span about="list" className="items-baseline text-[16px] space-y-4 font-['montserrat'] lowercase break-normal"> 
-                 { data?.map(( experience ) => (
-                  <li key={experience.id}> {experience.item} </li>
-                 ))}
-                </span>
-            </div>
+
+<section about="Experience Container Border" className=" flex-shrink-0 border-2 border-[#71EC8B] rounded-[21px] m-8 font-press-start text-white "> 
+    <div about="Summary Bullet List">
+        <div about='SubHeading with Logo, Date and Title' className="flex relative pl-4 pt-4">
+        <Image className="pr-4 object-contain " src={image}  width={80} height={50} alt='logo'/>
+        <h1 className="text-4xl lg:text-5xl uppercase text-[#ED6DD3] pt-2 ">{title}</h1>
+        <h2 about="Date Top Right Corner" className="uppercase hidden lg:block absolute top-0 right-0 pt-10 pr-10">{date}</h2>
         </div>
+        <p className="pl-6 pt-3 uppercase">{subheading}</p>
+        <div about="Experience Heading, Subheading and Text" className="p-6">
+        <span about="list" className=" font-['montserrat']"> 
+            { data?.map(( experience ) => (
+            <li key={experience.id}> {experience.item} </li>
+            ))}
+        </span>
+        </div>
+    </div>
 </section>
   ) 
 }
