@@ -567,6 +567,9 @@ video {
 .m-28{
   margin: 7rem;
 }
+.m-8{
+  margin: 2rem;
+}
 .-mb-4{
   margin-bottom: -1rem;
 }
@@ -593,6 +596,9 @@ video {
 }
 .table{
   display: table;
+}
+.hidden{
+  display: none;
 }
 .h-10{
   height: 2.5rem;
@@ -843,6 +849,12 @@ video {
 .pt-8{
   padding-top: 2rem;
 }
+.pl-4{
+  padding-left: 1rem;
+}
+.pl-6{
+  padding-left: 1.5rem;
+}
 .text-center{
   text-align: center;
 }
@@ -939,6 +951,10 @@ video {
 
   .lg\:mt-0{
     margin-top: 0px;
+  }
+
+  .lg\:block{
+    display: block;
   }
 
   .lg\:inline-block{
