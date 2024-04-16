@@ -612,6 +612,15 @@ video {
 .h-28{
   height: 7rem;
 }
+.h-12{
+  height: 3rem;
+}
+.h-14{
+  height: 3.5rem;
+}
+.h-16{
+  height: 4rem;
+}
 .w-10{
   width: 2.5rem;
 }
@@ -679,20 +688,15 @@ video {
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
-.space-y-8 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-y-reverse: 0;
-  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
-}
 .space-y-4 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
-.space-y-2 > :not([hidden]) ~ :not([hidden]){
+.space-y-8 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
-  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 .overflow-hidden{
   overflow: hidden;
@@ -717,9 +721,6 @@ video {
 }
 .rounded-br-\[12px\]{
   border-bottom-right-radius: 12px;
-}
-.border{
-  border-width: 1px;
 }
 .border-2{
   border-width: 2px;
@@ -771,14 +772,6 @@ video {
 .object-contain{
   -o-object-fit: contain;
      object-fit: contain;
-}
-.object-cover{
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.object-center{
-  -o-object-position: center;
-     object-position: center;
 }
 .p-10{
   padding: 2.5rem;
@@ -933,14 +926,6 @@ video {
 .duration-300{
   transition-duration: 300ms;
 }
-.odd\:border-\[\#5760CC\]:nth-child(odd){
-  --tw-border-opacity: 1;
-  border-color: rgb(87 96 204 / var(--tw-border-opacity));
-}
-.even\:border-\[\#ED6DD3\]:nth-child(even){
-  --tw-border-opacity: 1;
-  border-color: rgb(237 109 211 / var(--tw-border-opacity));
-}
 .hover\:scale-125:hover{
   --tw-scale-x: 1.25;
   --tw-scale-y: 1.25;
@@ -975,8 +960,16 @@ video {
     display: flex;
   }
 
+  .lg\:h-24{
+    height: 6rem;
+  }
+
   .lg\:w-auto{
     width: auto;
+  }
+
+  .lg\:w-24{
+    width: 6rem;
   }
 
   .lg\:flex-grow{
