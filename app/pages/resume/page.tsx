@@ -9,7 +9,7 @@ import Image from "next/image"
 // overall page for resume
 export default function Resume() {
   return  (
-  <section>
+  <section className="w-full">
     <Navbar link='/'/>
     <Skills/>
     <Experience title='paypal' subheading='software engineer, checkout' date='sept 2022 - jan 2024' data={ExperienceData} image={logos[0].photo.src}/>
