@@ -2,9 +2,8 @@ import Experience from "@/components/experience"
 import Navbar from "@/components/navbar"
 import Skills from "@/components/skills"
 import { ExperienceData, InternData, logos } from "@/lib/data"
-import PayPalLogo from '@/app/src/img/PayPalLogo.png';
 import Footer from "@/components/footer";
-import Image from "next/image"
+
 
 // overall page for resume
 export default function Resume() {
