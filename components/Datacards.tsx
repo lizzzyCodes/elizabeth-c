@@ -24,7 +24,7 @@ export default function DataCard({ data }) {
               <div className="p-4 pr-6">
                 <Link href={link}>
                   <img
-                    className=" hover:scale-125 flex-1 h-28 p-4"
+                    className="hover:scale-125 flex-1 h-28 p-4"
                     src={photo.src}
                     alt={text}
                   />

@@ -20,8 +20,8 @@ export default function About() {
       I’m a software engineer and a advocate for diversity in tech.
       <br />  I have over a year of full-time software engineering experience. my background is in data science and I love front end development. I was born and raised in Des Moines, Washington. (40 min from Seattle) and I am based in Chicago.
       <br /> Outside work, I spend most of my time mentoring students in various aspects of their student journey, including mock interviews for selective programs, college applications and reinforcing computer science topics.
-      <br /> Coming from a background that had capacity constrained majors (academic programs that have limited enrollment capacity) my university journey began with the disheartening advice from advisors who discouraged me from applying to computer science.
-      <br /> My personal journey has inspired a deep commitment to helping and uplifting the community that faces similar struggles. By sharing my story and offering support, I aim to empower others to navigate the challenges of being a first-generation college student (like myself) fostering a sense of belonging and resilience within the community.
+      <br /> As the first in my family to graduate from college and attending a school with capacity-constrained majors (academic programs that have limited enrollment capacity) my university journey began with the disheartening advice from advisors who discouraged me from applying to computer science.
+      <br /> My personal journey has inspired a deep commitment to helping and uplifting the community that faces similar struggles. By sharing my story and offering support, I aim to empower others to navigate the challenges of being a first-generation college student like myself fostering a sense of belonging and resilience within the community.
       </p>
     </div>
     <div about='button container' className="flex justify-center relative p-8">

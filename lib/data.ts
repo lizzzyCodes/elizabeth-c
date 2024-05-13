@@ -253,29 +253,20 @@ export const mockHireDataLinks = [
     text: "Typeography", // typography fle
     att: "icons created by Freepik - Flaticon",
     // <a href="https://www.flaticon.com/free-icons/font" title="font icons">Font icons created by Freepik - Flaticon</a>
-    link: "https://hub.arcgis.com/datasets/ALGeoHub::alabama-counties/about",
+    link: "https://www.figma.com/file/uNAihqMjveW7qjVhP5tlZS/Fonts?type=design&node-id=0%3A1&mode=design&t=IOBJi0yHiGReflLl-1",
   },
   {
     id: "2",
     photo: DesignElements,
     text: "Design Elements", // like the buttons active etc file
     att: "icons created by Freepik - Flaticon",
-    // <a href="https://www.flaticon.com/free-icons/art-and-design" title="art and design icons">Art and design icons created by Freepik - Flaticon</a>
-    link: "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/AL-117/tavg/1/1/1895-2022",
+    link: "https://www.figma.com/file/GKtgTOUeLxLO6gLaGJDLr0/Common-Design-Elements?type=design&node-id=0%3A1&mode=design&t=epWLalAm2tZav9gJ-1",
   },
   {
     id: "3",
     photo: ColorPalette,
     text: "Color Palette", // color palette figma file
     att: "icons created by Freepik - Flaticon",
-    // <a href="https://www.flaticon.com/free-icons/shapes" title="shapes icons">Shapes icons created by Freepik - Flaticon</a>
-    link: "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/AL-117/tavg/1/1/1895-2022",
-  },
-  {
-    id: "3",
-    photo: Precipitation,
-    text: "Pages", // pges file like the dashboard etc...
-    att: "icons created by Freepik - Flaticon", // figma logo?
-    link: "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/AL-117/tavg/1/1/1895-2022",
+    link: "https://www.figma.com/design/IhLMTmC2spzFx6FWLQjJYJ/Color-Palette---Candid-Cafe?node-id=0%3A1&t=IsBvwL64jYjHzrBo-1",
   },
 ] as const;
