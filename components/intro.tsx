@@ -18,50 +18,49 @@ export default function Intro() {
           about="heading"
           className=" text-[#ED6DD3] p-10 text-center font-press-start uppercase"
         >
-          <h1 className="text-2xl sm:text-8xl lg:text-7xl">
-            hi, im liz && welcome to my portfolio{" "}
-          </h1>
 
-          <div about="small cloud" className="hidden lg:block absolute object-left-top ">
+    <div className="text-2xl sm:text-8xl lg:text-7xl">
+            <TypeAnimation
+            sequence={["hi, im liz && welcome to my portfolio"]}
+            speed={1}
+            repeat={0}
+          />
+</div>
+          <div
+            about="small cloud"
+            className="hidden lg:block absolute top-0 left-0 z-40"
+          >
             {/* -left-3 -top-3 */}
             <Image
               className=""
               src={SmallCloud}
-              width={500}
-              height={100}
-              alt="clouds png"
-            />
-          </div>
-
-          <div about="top right cloud" className="hidden lg:block absolute -right-3 -top-3">
-            <Image
-              className=""
-              src={Clouds}
               width={400}
               height={400}
               alt="clouds png"
             />
           </div>
 
-          <div about="hidden lg:block middle cloud" className=" absolute">
+          <div about="top right cloud" className="hidden lg:block absolute">
+            {/* -right-3 -top-3*/}
             <Image
               className=""
               src={Clouds}
-              width={500}
-              height={500}
+              width={445}
+              height={204}
               alt="clouds png"
             />
           </div>
 
-          {/*}  <TypeAnimation
-            sequence={[
-                'hi, im elizabeth && welcome to my portfolio'
-            ]}
-                      speed={1}
-            style={{ fontSize: '50px', display: 'relative'}}
-            repeat={0}
-            // flex flex-wrap justify-around 
-        /> */}
+          <div about="middle cloud" className=" hidden lg:block absolute">
+            <Image
+              className=""
+              src={Clouds}
+              width={500}
+              height={200}
+              alt="clouds png"
+            />
+          </div>
+
         </div>
         <div className="p-2" about="Buttons">
           <div className="flex-col text-xl space-y-8">
