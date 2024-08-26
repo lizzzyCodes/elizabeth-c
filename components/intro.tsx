@@ -10,22 +10,19 @@ import Heading from "./heading";
 
 export default function Intro() {
   return (
-    <div about="overall container" className="min-w-[310px]">
+    <div about="overall container" className="min-w-[411px]">
       <div className="pt-20 pr-[22px] pl-[22px] place-content-center">
         <section className="rounded-[55px] border border-6 border-[#71EC8B] flex flex-col items-center justify-center  ">
           <div
             about="heading"
-            className=" text-[#ED6DD3] text-[32px] lg:text-[55px] p-10 text-center font-press-start uppercase border border-6 border-[#71EC8B] mb-4"
+            className=" text-[#ED6DD3] text-[32px] lg:text-[55px] p-10 text-center font-press-start uppercase mb-4"
           >
             <h1> hi im liz && welcome to my portfolio!</h1>
           </div>
-          <div
-            about="button section"
-            className="border border-6 border-[#71EC8B] p-10"
-          >
+          <div about="button section" className="">
             <div
               about="side by side button"
-              className="border border-6 border-[#71EC8B] p-10 flex justify-center space-x-4"
+              className="p-10 flex justify-center space-x-4"
             >
               <Button link="/pages/about" color="bg-[#71EC8B]" text="about" />
               <Button
@@ -36,7 +33,7 @@ export default function Intro() {
             </div>
             <div
               about="centered button"
-              className="border border-6 border-[#71EC8B] p-10 flex justify-center "
+              className="p-10 flex justify-center "
             >
               <Button
                 link="/pages/resume"
