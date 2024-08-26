@@ -3,68 +3,30 @@ import Button from "./Buttons";
 import Clouds from "@/app/src/img/clouds.png";
 import SmallCloud from "@/app/src/img/smallcloud.png";
 import Image from "next/image";
-import { TypeAnimation } from "react-type-animation";
+import { useState } from "react";
+import TypeAnimationComponent from "./utils";
+import Typewriter from "./utils";
 import Heading from "./heading";
-import Head from "next/head";
-// relative allows us to place the png in the same line
+
 export default function Intro() {
   return (
-    <div about="overall container" className="p-10 lg:pt-44 lg:pl-20 lg:pr-20 ">
-      <section
-        about="IntroBox"
-        className="border-2 border-[#71EC8B] rounded-[21px] w-fit table text-center p-2"
-      >
-        <div
-          about="heading"
-          className=" text-[#ED6DD3] p-10 text-center font-press-start uppercase"
-        >
-
-    <div className="text-2xl sm:text-8xl lg:text-7xl">
-            <TypeAnimation
-            sequence={["hi, im liz && welcome to my portfolio"]}
-            speed={1}
-            repeat={0}
-          />
-</div>
+    <div about="overall container" className="min-w-[310px]">
+      <div className="pt-20 pr-[22px] pl-[22px] place-content-center">
+        <section className="rounded-[55px] border border-6 border-[#71EC8B] flex flex-col items-center justify-center  ">
           <div
-            about="small cloud"
-            className="hidden lg:block absolute top-0 left-0 z-40"
+            about="heading"
+            className=" text-[#ED6DD3] text-[32px] lg:text-[55px] p-10 text-center font-press-start uppercase border border-6 border-[#71EC8B] mb-4"
           >
-            {/* -left-3 -top-3 */}
-            <Image
-              className=""
-              src={SmallCloud}
-              width={400}
-              height={400}
-              alt="clouds png"
-            />
+            <h1> hi im liz && welcome to my portfolio!</h1>
           </div>
-
-          <div about="top right cloud" className="hidden lg:block absolute">
-            {/* -right-3 -top-3*/}
-            <Image
-              className=""
-              src={Clouds}
-              width={445}
-              height={204}
-              alt="clouds png"
-            />
-          </div>
-
-          <div about="middle cloud" className=" hidden lg:block absolute">
-            <Image
-              className=""
-              src={Clouds}
-              width={500}
-              height={200}
-              alt="clouds png"
-            />
-          </div>
-
-        </div>
-        <div className="p-2" about="Buttons">
-          <div className="flex-col text-xl space-y-8">
-            <div className="space-x-4">
+          <div
+            about="button section"
+            className="border border-6 border-[#71EC8B] p-10"
+          >
+            <div
+              about="side by side button"
+              className="border border-6 border-[#71EC8B] p-10 flex justify-center space-x-4"
+            >
               <Button link="/pages/about" color="bg-[#71EC8B]" text="about" />
               <Button
                 link="/pages/projects"
@@ -72,7 +34,10 @@ export default function Intro() {
                 text="projects"
               />
             </div>
-            <div>
+            <div
+              about="centered button"
+              className="border border-6 border-[#71EC8B] p-10 flex justify-center "
+            >
               <Button
                 link="/pages/resume"
                 color="bg-[#ED6DD3]"
@@ -80,8 +45,8 @@ export default function Intro() {
               />
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
   );
 }

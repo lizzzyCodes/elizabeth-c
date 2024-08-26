@@ -1,8 +1,6 @@
 import Link from "next/link";
 
-// TODO: need to add the pixel hearts on the top right corner (5)
 export default function Navbar({ link }: { link: string }) {
-  //       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto border-4 border-indigo-500/100 fixed top-0 w-full">
   return (
     <div className="flex">
       <div className="class=text-sm lg:flex-grow p-4">

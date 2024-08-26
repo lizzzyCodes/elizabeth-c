@@ -13,7 +13,7 @@ export default function Project() {
       <Heading text="MockHire" />
       <About
         subheading="About this project"
-        text="This project aims to create a free platform for individuals to practice technical and behavioral interview skills through mock sessions with peers. Mock interviews are held at real time"
+        text="This project aims to create a free platform for individuals to practice technical and behavioral interview skills through mock sessions with peers. Mock interviews are held at real time. The project uses Vite, React, React Router, and TypeScript for development, along with Material UI for user interface components. CSS and StoryBook are utilized to build pages in isolation, and Mocha and React Testing Library are used for testing."
       />
       <About
         subheading="Figma Designs"
@@ -22,13 +22,7 @@ export default function Project() {
       <DataCard data={mockHireDataLinks} />
       <About
         subheading="Github Repo"
-        text="Currently developing the sign in page with material ui, adding error handling and connecting on submit to back end. Link to Repo"
-      />
-      <ImageAndLink
-        src={Image}
-        alt="github logo"
-        link="https://github.com/mockhire-com/FrontEnd-Development"
-        label="Github Repo"
+        text="I completed the sign-in page using Material UI and TypeScript, integrated Mocha to run tests via the command line interface, and implemented authentication middleware to manage authentication states. This middleware authenticates users via API calls to the backend and renders protected routes if authenticated."
       />
     </section>
   );

@@ -51,7 +51,6 @@ export default function Project() {
         text="A couple things I would improve on is breaking up the create_row_merge function reduce the amount of parameters name of county could be deleted as a
         parameter and grab the table name"
       />
-      <About subheading="Learn More About It Here" text="Link to PDF" />
     </section>
   );
 }

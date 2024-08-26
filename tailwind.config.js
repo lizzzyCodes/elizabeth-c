@@ -25,6 +25,9 @@ module.exports = {
       },
       fontSize: {
         lg: ['50px'],
+      },
+      screens: {
+        'lg': '1440px',
       }
     },
   },

@@ -16,6 +16,7 @@ export default function ImageLink({ src, alt, link, label }: ImageProps) {
         <div className="">
           <Link href={link}>
             <Image
+              priority={true}
               className="hover:scale-125 pb-4"
               src={src}
               width={80}

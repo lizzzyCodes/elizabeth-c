@@ -9,6 +9,7 @@ export default function Resume() {
     <section className="w-full">
       <Navbar link="/" />
       <Skills />
+      <h1 className="text-center text-4xl lg:text-5xl font-press-start uppercase text-[#ED6DD3] pt-6 pb-10">experience </h1>
       <Experience
         title="paypal"
         subheading="software engineer, checkout"
@@ -24,8 +25,9 @@ export default function Resume() {
         image={logos[0].photo.src}
       />
       <Experience
-        title="education"
-        subheading="b.a geographic information systems && data science @ university of washington"
+        title="School"
+        subheading="B.A geographic information systems && data science" // subheading I only want to display it on laptop
+        text="@ The University of Washington" // on mobile
         date="june 2022"
         image={logos[1].photo.src}
       />
