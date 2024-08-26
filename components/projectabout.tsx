@@ -1,5 +1,5 @@
 // This is component for the projects page which is reausable through out project layouts
-import Subheading from "./subheading"
+import Subheading from "./Subheading"
 
 export default function About( { subheading, text } : { subheading:string, text:string }) {
   return (

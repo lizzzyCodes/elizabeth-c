@@ -4,9 +4,9 @@ import Clouds from "@/app/src/img/clouds.png";
 import SmallCloud from "@/app/src/img/smallcloud.png";
 import Image from "next/image";
 import { useState } from "react";
-import TypeAnimationComponent from "./utils";
-import Typewriter from "./utils";
 import Heading from "./heading";
+import TypingAnimation from "./TypingAnimation";
+import Typewriter from "typewriter-effect";
 
 export default function Intro() {
   return (
@@ -17,7 +17,7 @@ export default function Intro() {
             about="heading"
             className=" text-[#ED6DD3] text-[32px] lg:text-[55px] p-10 text-center font-press-start uppercase mb-4"
           >
-            <h1> hi im liz && welcome to my portfolio!</h1>
+            <TypingAnimation />
           </div>
           <div about="button section" className="">
             <div
@@ -31,10 +31,7 @@ export default function Intro() {
                 text="projects"
               />
             </div>
-            <div
-              about="centered button"
-              className="p-10 flex justify-center "
-            >
+            <div about="centered button" className="pb-10 flex justify-center ">
               <Button
                 link="/pages/resume"
                 color="bg-[#ED6DD3]"
