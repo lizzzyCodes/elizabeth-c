@@ -12,17 +12,17 @@ export default function Intro() {
   return (
     <div about="overall container" className="min-w-[411px]">
       <div className="pt-20 pr-[22px] pl-[22px] place-content-center">
-        <section className="rounded-[55px] border border-6 border-[#71EC8B] flex flex-col items-center justify-center  ">
+        <section className="rounded-[55px] border border-8 border-[#71EC8B] flex flex-col items-center justify-center  ">
           <div
             about="heading"
-            className=" text-[#ED6DD3] text-[32px] lg:text-[55px] p-10 text-center font-press-start uppercase mb-4"
+            className=" text-[#ED6DD3] text-[32px] lg:text-[55px] pl-10 pr-10 pt-10 text-center font-press-start uppercase mb-4"
           >
-            <TypingAnimation />
+            <TypingAnimation text="hi im elizabeth && welcome to my portfolio" defaultText="hi im elizabeth && welcome to my portfolio" />
           </div>
           <div about="button section" className="">
             <div
               about="side by side button"
-              className="p-10 flex justify-center space-x-4"
+              className="pl-10 pr-10 pb-10 flex justify-center space-x-4"
             >
               <Button link="/pages/about" color="bg-[#71EC8B]" text="about" />
               <Button
