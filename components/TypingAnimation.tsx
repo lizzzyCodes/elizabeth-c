@@ -23,7 +23,7 @@ const TypingAnimation = ({ text, defaultText }: AnimationProps) => {
         <TypeAnimation sequence={[text]} repeat={0} cursor={true} speed={1} />
       )}
       {!hasAnimated && (
-        <div className="text-[#ED6DD3] text-[32px] lg:text-[55px] p-10 text-center font-press-start uppercase mb-4">
+        <div className="text-[#ED6DD3] text-[32px] lg:text-[55px] pt-10 pl-10 pr-10 pb-4 text-center font-press-start uppercase mb-4">
           <h1>{ defaultText }</h1>
         </div>
       )}
