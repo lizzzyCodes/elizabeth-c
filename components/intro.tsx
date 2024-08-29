@@ -3,6 +3,7 @@ import Button from "./Buttons";
 import TypingAnimation from "./TypingAnimation";
 import SmallCloud from "../app/src/img/smallcloud.png";
 import LargeCloud from "../app/src/img/clouds.png";
+import LargeCloud2 from "../app/src/img/cloud2.png";
 import Image from "next/image";
 
 export default function Intro() {
@@ -18,15 +19,26 @@ export default function Intro() {
             alt="picture of clouds"
           />
           <Image
-            className="absolute -top-16 right-0 m-4 "
+            className="hidden lg:block absolute -top-16 right-0 m-4 "
             src={LargeCloud}
             width={350}
             height={200}
             alt="picture of clouds"
           />
+
+          <div className="absolute -bottom-20 left-1/2 transform -translate-x-1/2">
+            <Image
+              className="hidden lg:block"
+              src={LargeCloud2}
+              width={350}
+              height={200}
+              alt="picture of clouds"
+            />
+          </div>
+
           <div
             about="heading"
-            className="relative text-[#ED6DD3] text-[32px] lg:text-[55px] pl-10 pr-10 pt-28 text-center font-press-start uppercase mb-4"
+            className="relative text-[#ED6DD3] text-[32px] lg:text-[60px] pl-10 pr-10 pt-28 text-center font-press-start uppercase mb-4"
           >
             <TypingAnimation
               text="hi, im elizabeth && welcome to my portfolio"
@@ -53,13 +65,6 @@ export default function Intro() {
               />
             </div>
           </div>
-           <Image
-            className="absolute bottom-0 m-4 -bottom-20"
-            src={LargeCloud}
-            width={310}
-            height={200}
-            alt="picture of clouds"
-          /> 
         </section>
       </div>
     </div>
