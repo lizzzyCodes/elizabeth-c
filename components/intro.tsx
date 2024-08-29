@@ -19,16 +19,15 @@ export default function Intro() {
             alt="picture of clouds"
           />
           <Image
-            className="hidden lg:block absolute -top-16 right-0 m-4 "
+            className="hidden md:block absolute -top-16 right-0 m-4 "
             src={LargeCloud}
             width={350}
             height={200}
             alt="picture of clouds"
           />
 
-          <div className="absolute -bottom-20 left-1/2 transform -translate-x-1/2">
+          <div className="hidden md:block absolute -bottom-20 left-1/2 transform -translate-x-1/2">
             <Image
-              className="hidden lg:block"
               src={LargeCloud2}
               width={350}
               height={200}

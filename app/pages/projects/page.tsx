@@ -1,6 +1,6 @@
 // This Page contains all the project cards
 import Heading from "@/components/heading";
-import ProjectCard from "@/components/projectcard";
+import ProjectCard from "@/components/ProjectCard";
 import AlabamaImage from "@/app/src/img/Icons/alabama.jpg";
 import MockHireImage from "@/app/src/img/Icons/mockHire.jpg";
 import { alabamaStack, mockHireStack } from "@/lib/data";
