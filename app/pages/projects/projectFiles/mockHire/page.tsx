@@ -1,11 +1,9 @@
 // This is the Page for MockHire, it will contain Figma Links etc
 import Navbar from "@/components/Navbar";
 import Heading from "@/components/Heading";
-import About from "@/components/projectabout";
+import About from "@/components/About";
 import DataCard from "@/components/Datacards";
-import ImageAndLink from "@/components/ImageAndLink";
 import { mockHireDataLinks } from "@/lib/data";
-import Image from "../../../../src/img/Icons/github.svg";
 export default function Project() {
   return (
     <section>

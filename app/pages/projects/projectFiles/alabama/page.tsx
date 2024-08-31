@@ -2,7 +2,7 @@
 // probably will add a link for people to look through my code.
 import Navbar from "@/components/Navbar";
 import Heading from "@/components/Heading";
-import About from "@/components/projectabout";
+import About from "@/components/About";
 import DataCard from "@/components/Datacards";
 import { alabamaVegetationData } from "@/lib/data";
 

@@ -1,6 +1,4 @@
-import Intro from "@/components/intro";
-import LargeCloud from "../app/src/img/clouds.png";
-import Image from "next/image";
+import Intro from "@/components/Intro";
 // Main Page
 export default function Home() {
   return (
