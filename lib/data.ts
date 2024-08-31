@@ -23,21 +23,9 @@ import DesignElements from "../app/src/img/Icons/designElements.png";
 import ColorPalette from "../app/src/img/Icons/colorPalette.png";
 import Terraform from "../app/src/img/Icons/terraform.svg";
 import MaterialUI from "../app/src/img/Icons/materialUI.svg";
-import { StaticImageData } from "next/image";
 import { IconLinks } from "@/components/Datacards"; // USE it?
-// Interface
-export interface ProjectsData {
-  id: string;
-  skill?: string;
-  photo?: StaticImageData,
-  text?: string,
-  att?: string,
-  link?: string,
-}
-interface ExperienceData {
-  id: string;
-  item: string;
-}
+import { SkillLabels } from "@/components/ProjectCard";
+import { ResumeData } from "@/components/Experience";
 // Logos for University and Work Experience in Resume Page
 export const logos = [
   {
@@ -135,7 +123,7 @@ export const images = [
 ] as const;
 
 // Bullet Points for Resume Page for Work Experience
-export const ExperienceData: ExperienceData[] = [
+export const ExperienceData: ResumeData[] = [
   {
     id: "1",
     item: "Implemented eligibility and redirection logic in the router layer using JavaScript, reducing checkout latency by ~3 seconds for ~45% of users, leading to improved conversion rates",
@@ -163,7 +151,7 @@ export const ExperienceData: ExperienceData[] = [
 ] as const;
 
 // Bullet Points for Resume Page for Intern Experience
-export const InternData: ExperienceData[] = [
+export const InternData: ResumeData[] = [
   {
     id: "1",
     item: "Conducted comprehensive research on SharpR, analyzing click rates and benchmarking against industry competitors in order increase click rates",
@@ -183,7 +171,7 @@ export const InternData: ExperienceData[] = [
 ] as const;
 
 // Tech Stack Data for Project Cards for Alabama Project
-export const alabamaStack: ProjectsData[] = [
+export const alabamaStack: SkillLabels[] = [
   {
     id: "1",
     skill: "python",
@@ -199,7 +187,7 @@ export const alabamaStack: ProjectsData[] = [
 ] as const;
 
 // Tech Stack Data for Project Cards for MockHire
-export const mockHireStack = [
+export const mockHireStack: SkillLabels[] = [
   {
     id: "1",
     skill: "figma",
@@ -243,13 +231,12 @@ export const alabamaVegetationData: IconLinks[] = [
   },
 ] as const;
 
-export const mockHireDataLinks = [
+export const mockHireDataLinks: IconLinks[] = [
   {
     id: "1",
     photo: Typeography,
     text: "Typeography", // typography fle
     att: "icons created by Freepik - Flaticon",
-    // <a href="https://www.flaticon.com/free-icons/font" title="font icons">Font icons created by Freepik - Flaticon</a>
     link: "https://www.figma.com/file/uNAihqMjveW7qjVhP5tlZS/Fonts?type=design&node-id=0%3A1&mode=design&t=IOBJi0yHiGReflLl-1",
   },
   {

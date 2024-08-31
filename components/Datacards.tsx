@@ -4,7 +4,6 @@ import Link from "next/link";
 import { StaticImageData } from "next/image";
 
 export interface IconLinks {
-  // each component will get a proper interface
   id: string;
   photo?: StaticImageData;
   text?: string;

@@ -1,10 +1,10 @@
 // This Page contains all the project cards
-import Heading from "@/components/heading";
+import Heading from "@/components/Heading";
 import ProjectCard from "@/components/ProjectCard";
 import AlabamaImage from "@/app/src/img/Icons/alabama.jpg";
 import MockHireImage from "@/app/src/img/Icons/mockHire.jpg";
 import { alabamaStack, mockHireStack } from "@/lib/data";
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/Navbar";
 
 export default function Project() {
   return (

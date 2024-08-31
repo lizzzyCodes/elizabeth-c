@@ -1,9 +1,7 @@
-import Star from '@/app/src/img/Icons/star.png';
 import Mail from '@/app/src/img/Icons/mail.png';
 import Link from 'next/link';
-import Navbar from '@/components/navbar';
+import Navbar from '@/components/Navbar';
 import Headshot from '@/app/src/img/Icons/ProfilePic.png';
-import Image from 'next/image';
 
 export default function About() {
   return  (

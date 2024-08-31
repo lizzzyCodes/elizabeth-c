@@ -1,5 +1,9 @@
 // Each card
 import Link from "next/link";
+export interface SkillLabels {
+  id: string;
+  skill: string;
+}
 
 export default function ProjectCard({
   title,
@@ -12,7 +16,7 @@ export default function ProjectCard({
   text: string;
   link: string;
   img: string;
-  data: any;
+  data: SkillLabels[];
 }) {
   return (
     <Link href={link}>

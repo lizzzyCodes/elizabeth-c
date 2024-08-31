@@ -3,7 +3,6 @@ import Button from "./Buttons";
 import TypingAnimation from "./TypingAnimation";
 import SmallCloud from "../app/src/img/smallcloud.png";
 import LargeCloud from "../app/src/img/clouds.png";
-import LargeCloud2 from "../app/src/img/cloud2.png";
 import Image from "next/image";
 
 export default function Intro() {
@@ -25,15 +24,6 @@ export default function Intro() {
             height={200}
             alt="picture of clouds"
           />
-
-         {/* <div className="hidden md:block absolute -bottom-20 left-1/2 transform -translate-x-1/2">
-            <Image
-              src={LargeCloud2}
-              width={350}
-              height={200}
-              alt="picture of clouds"
-            />
-          </div> */}
 
           <div
             about="heading"

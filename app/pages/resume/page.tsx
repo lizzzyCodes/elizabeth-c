@@ -1,5 +1,5 @@
-import Experience from "@/components/experience";
-import Navbar from "@/components/navbar";
+import Experience from "@/components/Experience";
+import Navbar from "@/components/Navbar";
 import Skills from "@/components/Skills";
 import { ExperienceData, InternData, logos } from "@/lib/data";
 

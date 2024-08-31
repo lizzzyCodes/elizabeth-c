@@ -1,7 +1,10 @@
 import Image from "next/image";
-
+export interface ResumeData {
+  id: string,
+  item: string,
+} 
 // title is company, subheading is title, date, image data
-export default function Experience<T>({
+export default function Experience({
   title,
   subheading,
   date,
@@ -14,7 +17,7 @@ export default function Experience<T>({
   date: string;
   text?: string;
   image?: string;
-  data?: T[]; // accepts any array of objects with the same data structure
+  data?: ResumeData[];
 }) {
   return (
     <div className="flex-shrink-0 w-full min-w-[404px]">

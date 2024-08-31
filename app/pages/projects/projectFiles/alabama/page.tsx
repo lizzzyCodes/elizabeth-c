@@ -1,7 +1,7 @@
 // This is the Page for Data Science Alabama Project
 // probably will add a link for people to look through my code.
-import Navbar from "@/components/navbar";
-import Heading from "@/components/heading";
+import Navbar from "@/components/Navbar";
+import Heading from "@/components/Heading";
 import About from "@/components/projectabout";
 import DataCard from "@/components/Datacards";
 import { alabamaVegetationData } from "@/lib/data";
@@ -24,7 +24,7 @@ export default function Project() {
         subheading="Data Mining"
         text="Data sets used were a shapefile that contains all counties in alabama, temperature and precipitation csv files. Shape files 
         store the geometry of shapes like points, lines and polygons. They are commonly used in
-        spatial analysis and mapping. Click icons below to inspect the data.
+        spatial analysis and mapping. (Click icons below to inspect the data).
         "
       />
       <DataCard data={alabamaVegetationData} />
