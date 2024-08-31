@@ -23,8 +23,21 @@ import DesignElements from "../app/src/img/Icons/designElements.png";
 import ColorPalette from "../app/src/img/Icons/colorPalette.png";
 import Terraform from "../app/src/img/Icons/terraform.svg";
 import MaterialUI from "../app/src/img/Icons/materialUI.svg";
-import Github from "../app/src/img/Icons/github.svg";
-
+import { StaticImageData } from "next/image";
+import { IconLinks } from "@/components/Datacards"; // USE it?
+// Interface
+export interface ProjectsData {
+  id: string;
+  skill?: string;
+  photo?: StaticImageData,
+  text?: string,
+  att?: string,
+  link?: string,
+}
+interface ExperienceData {
+  id: string;
+  item: string;
+}
 // Logos for University and Work Experience in Resume Page
 export const logos = [
   {
@@ -122,7 +135,7 @@ export const images = [
 ] as const;
 
 // Bullet Points for Resume Page for Work Experience
-export const ExperienceData = [
+export const ExperienceData: ExperienceData[] = [
   {
     id: "1",
     item: "Implemented eligibility and redirection logic in the router layer using JavaScript, reducing checkout latency by ~3 seconds for ~45% of users, leading to improved conversion rates",
@@ -150,7 +163,7 @@ export const ExperienceData = [
 ] as const;
 
 // Bullet Points for Resume Page for Intern Experience
-export const InternData = [
+export const InternData: ExperienceData[] = [
   {
     id: "1",
     item: "Conducted comprehensive research on SharpR, analyzing click rates and benchmarking against industry competitors in order increase click rates",
@@ -170,7 +183,7 @@ export const InternData = [
 ] as const;
 
 // Tech Stack Data for Project Cards for Alabama Project
-export const alabamaStack = [
+export const alabamaStack: ProjectsData[] = [
   {
     id: "1",
     skill: "python",
@@ -182,22 +195,6 @@ export const alabamaStack = [
   {
     id: "3",
     skill: "csv",
-  },
-] as const;
-
-// Tech Stack Data for GrooveSnap
-export const grooveSnapStack = [
-  {
-    id: "1",
-    skill: "typescript",
-  },
-  {
-    id: "2",
-    skill: "react",
-  },
-  {
-    id: "3",
-    skill: "tailwind CSS",
   },
 ] as const;
 
@@ -222,7 +219,7 @@ export const mockHireStack = [
 ] as const;
 
 // Icons and Links Data for Alabama Project
-export const alabamaVegetationData = [
+export const alabamaVegetationData: IconLinks[] = [
   {
     id: "1",
     photo: Shapefile,

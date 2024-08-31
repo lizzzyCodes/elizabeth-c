@@ -10,7 +10,7 @@ export default function Intro() {
   return (
     <div about="overall container" className="min-w-[411px]">
       <div className="pt-20 pr-[22px] pl-[22px] place-content-center">
-        <section className="rounded-[55px] border border-8 border-[#71EC8B] flex flex-col items-center justify-center  ">
+        <section className="rounded-[55px] border border-8 border-[#71EC8B] flex flex-col items-center justify-center  pl-10 pr-10">
           <Image
             className="absolute -left-16 -top-10 m-4"
             src={SmallCloud}
@@ -26,14 +26,14 @@ export default function Intro() {
             alt="picture of clouds"
           />
 
-          <div className="hidden md:block absolute -bottom-20 left-1/2 transform -translate-x-1/2">
+         {/* <div className="hidden md:block absolute -bottom-20 left-1/2 transform -translate-x-1/2">
             <Image
               src={LargeCloud2}
               width={350}
               height={200}
               alt="picture of clouds"
             />
-          </div>
+          </div> */}
 
           <div
             about="heading"

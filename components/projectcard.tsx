@@ -11,8 +11,8 @@ export default function ProjectCard({
   title: string;
   text: string;
   link: string;
-  img: string,
-
+  img: string;
+  data: any;
 }) {
   return (
     <Link href={link}>

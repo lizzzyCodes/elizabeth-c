@@ -1,21 +1,20 @@
 import Image from "next/image";
 
 // title is company, subheading is title, date, image data
-export default function Experience({
+export default function Experience<T>({
   title,
   subheading,
   date,
   image,
   data,
   text,
-  isMobile,
 }: {
   title: string;
   subheading?: string;
   date: string;
   text?: string;
   image?: string;
-  isMobile?: boolean;
+  data?: T[]; // accepts any array of objects with the same data structure
 }) {
   return (
     <div className="flex-shrink-0 w-full min-w-[404px]">
