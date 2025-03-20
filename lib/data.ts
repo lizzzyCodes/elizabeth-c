@@ -11,6 +11,8 @@ import JavaScript from "../app/src/img/Icons/JAVASCRIPT.svg";
 import React from "../app/src/img/Icons/REAC.png";
 import NodeJS from "../app/src/img/Icons/NODE.png";
 import Python from "../app/src/img/Icons/PYTHON.svg.png";
+import Oracle from "../app/src/img/Icons/Oracle.png";
+import TypeScript from '../app/src/img/Icons/TypeScript.png';
 // import TailWind from '../app/src/img/Icons/Tailwind.png';
 import SQL from "../app/src/img/Icons/SQL.svg";
 import PayPal from "../app/src/img/PayPalLogo.png";
@@ -26,8 +28,13 @@ import MaterialUI from "../app/src/img/Icons/materialUI.svg";
 import { IconLinks } from "@/components/Datacards"; // USE it?
 import { SkillLabels } from "@/components/ProjectCard";
 import { ResumeData } from "@/components/Experience";
+
 // Logos for University and Work Experience in Resume Page
 export const logos = [
+  {
+    photo: Oracle,
+    text: Oracle
+  },
   {
     photo: PayPal,
     text: PayPal,
@@ -120,6 +127,11 @@ export const images = [
     text: SQL,
     label: "SQL",
   },
+  {
+    photo: TypeScript,
+    text: TypeScript,
+    label: "TypeScript"
+  }
 ] as const;
 
 // Bullet Points for Resume Page for Work Experience
@@ -168,6 +180,15 @@ export const InternData: ResumeData[] = [
     id: "4",
     item: "Developed button designs using React and documented code changes on Confluence in order to use in upcoming A/B experiments.",
   },
+] as const;
+
+// Bullet Points for Resume Page for Intern Experience
+export const OracleData: ResumeData[] = [
+  {
+    id: "1",
+    item: "Currently working as a front end developer within the DevOps team working with React, Typescript and blueprint",
+  },
+
 ] as const;
 
 // Tech Stack Data for Project Cards for Alabama Project
